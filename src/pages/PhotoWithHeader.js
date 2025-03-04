@@ -6,7 +6,7 @@ const PhotoWithHeader = () => {
 
       <MainTitleName>💌 ТВОЁ ОСОБОЕ ПРИГЛАШЕНИЕ 💌</MainTitleName>
 
-      <MainTitleDate>14.02.2025</MainTitleDate>
+      <MainTitleDate>06.03.2025</MainTitleDate>
     </ContentWrapper>
   );
 };
@@ -14,7 +14,7 @@ const PhotoWithHeader = () => {
 export default PhotoWithHeader;
 
 const MainTitleName = styled.div`
-  font-family: "Romulc";
+  font-family: "Romulc",serif;
   width: 100%;
   align-items: center;
   @media (max-width: 425px) {
