@@ -1,9 +1,7 @@
 import "./App.css";
 import PhotoWithHeader from "./pages/PhotoWithHeader";
 import TimerWithPhoto from "./pages/TimerWithPhoto";
-import RoadMapContent from "./pages/RoadMapContent";
 import InvitationText from "./pages/InvitationText";
-import FormContent from "./pages/FormContent";
 import styled from "@emotion/styled";
 import line from "./img/LineBg.png";
 import LastText from "./pages/LastText";
@@ -15,7 +13,7 @@ function Components() {
             <PhotoWithHeader/>
             <InvitationText/>
             <BackgroundLine src={line} alt="Background line "/>
-            <RoadMapContent/>
+            {/*<RoadMapContent/>*/}
             <TimerWithPhoto/>
             <BackgroundLine src={line} alt="Background line "/>
             <LastText/>
