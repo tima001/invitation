@@ -35,7 +35,7 @@ const ContentWrapper = styled.div`
     background-repeat: repeat;
     background-size: cover;
 
-    @media (max-width: 425px) {
+    @media (max-width: 440px) {
         background-size: auto;
     }
 `;

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import MyMusic from "../music/muz.mp3";
+import MyMusic from "../music/Ernar_Amandyq_Meni_kut.mp3";
 import styled from "@emotion/styled";
 import { css, keyframes } from "@emotion/react";
 import { MusicNotesSimple, Play } from "@phosphor-icons/react";
@@ -85,7 +85,7 @@ const PlayMeImg = styled.img`
 `;
 
 const CircleForIcon = styled.div`
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     z-index: 100;
     position: absolute;
     margin-top: 13px;
@@ -106,7 +106,7 @@ const MuteWrapper = styled.div`
   padding-right: 12px;
   z-index: 10;
   display: flex;
-  @media (max-width: 425px) {
+  @media (max-width: 440px) {
     top: 400px;
   }
   @media (max-width: 375px) {
